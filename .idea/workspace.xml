@@ -17,7 +17,7 @@
       <file leaf-file-name="UICircularProgressRingView.swift" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UICircularProgressRing/UICircularProgressRingView.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3786">
+            <state relative-caret-position="-1092">
               <caret line="737" column="7" lean-forward="true" selection-start-line="737" selection-start-column="7" selection-end-line="737" selection-end-column="7" />
               <folding />
             </state>
@@ -27,8 +27,8 @@
       <file leaf-file-name="UICircularProgressRingLayer.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UICircularProgressRing/UICircularProgressRingLayer.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3762">
-              <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+            <state relative-caret-position="346">
+              <caret line="53" column="16" lean-forward="true" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -53,10 +53,12 @@
       <find>var ringLayer</find>
       <find>override</find>
       <find>inter</find>
-      <find>internal</find>
       <find>override func action</find>
-      <find>func draw</find>
       <find>valueLabel</find>
+      <find>drawValueLabel</find>
+      <find>func draw</find>
+      <find>internal</find>
+      <find>drawValue</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -146,12 +148,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510051478241</updated>
-      <workItem from="1510051480041" duration="1586000" />
+      <workItem from="1510051480041" duration="1873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1586000" />
+    <option name="totallyTimeSpent" value="1873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -198,7 +200,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UICircularProgressRing/UICircularProgressRingView.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3786">
+        <state relative-caret-position="-1092">
           <caret line="737" column="7" lean-forward="true" selection-start-line="737" selection-start-column="7" selection-end-line="737" selection-end-column="7" />
           <folding />
         </state>
@@ -206,8 +208,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UICircularProgressRing/UICircularProgressRingLayer.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3762">
-          <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        <state relative-caret-position="346">
+          <caret line="53" column="16" lean-forward="true" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
           <folding />
         </state>
       </provider>

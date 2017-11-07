@@ -41,7 +41,7 @@ private extension CGFloat {
  */
 private extension UILabel {
     func update(withValue value: CGFloat, valueIndicator: String,
-                showsDecimal: Bool, decimalPlaces: Int, text: String?) {
+                showsDecimal: Bool, decimalPlaces: Int, text: String? = nil) {
         if (text != nil) {
             self.text = text!
             self.sizeToFit()
@@ -307,7 +307,7 @@ open class UICircularProgressRingLayer: CAShapeLayer {
      Draws the value label for the view.
      Only drawn if shouldShowValueText = true
      */
-    open func drawValueLabel(text: String?) {
+    open func drawValueLabel(text: String? = nil) {
         guard shouldShowValueText else { return }
         
         // Draws the text field

@@ -107,7 +107,7 @@ open class UICircularProgressRingLayer: CAShapeLayer {
     @NSManaged weak var valueDelegate: UICircularProgressRingView?
     
     // The value label which draws the text for the current value
-    lazy var valueLabel: UILabel = UILabel(frame: .zero)
+    var valueLabel: UILabel = UILabel(frame: .zero)
     
     // MARK: Draw
     
@@ -301,7 +301,7 @@ open class UICircularProgressRingLayer: CAShapeLayer {
      Draws the value label for the view.
      Only drawn if shouldShowValueText = true
      */
-    private func drawValueLabel() {
+    open func drawValueLabel() {
         guard shouldShowValueText else { return }
         
         // Draws the text field

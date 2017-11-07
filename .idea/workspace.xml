@@ -27,8 +27,8 @@
       <file leaf-file-name="UICircularProgressRingLayer.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UICircularProgressRing/UICircularProgressRingLayer.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="125" column="57" lean-forward="true" selection-start-line="125" selection-start-column="57" selection-end-line="125" selection-end-column="57" />
+            <state relative-caret-position="198">
+              <caret line="303" column="8" lean-forward="false" selection-start-line="303" selection-start-column="8" selection-end-line="303" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -56,6 +56,7 @@
       <find>internal</find>
       <find>override func action</find>
       <find>func draw</find>
+      <find>valueLabel</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -145,12 +146,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510051478241</updated>
-      <workItem from="1510051480041" duration="1036000" />
+      <workItem from="1510051480041" duration="1161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1036000" />
+    <option name="totallyTimeSpent" value="1161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -205,8 +206,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UICircularProgressRing/UICircularProgressRingLayer.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="125" column="57" lean-forward="true" selection-start-line="125" selection-start-column="57" selection-end-line="125" selection-end-column="57" />
+        <state relative-caret-position="198">
+          <caret line="303" column="8" lean-forward="false" selection-start-line="303" selection-start-column="8" selection-end-line="303" selection-end-column="8" />
           <folding />
         </state>
       </provider>

@@ -115,7 +115,7 @@ open class UICircularProgressRingLayer: CAShapeLayer {
      Overriden for custom drawing.
      Draws the outer ring, inner ring and value label.
      */
-    override func draw(in ctx: CGContext) {
+    override open func draw(in ctx: CGContext) {
         super.draw(in: ctx)
         UIGraphicsPushContext(ctx)
         // Draw the rings
@@ -136,7 +136,7 @@ open class UICircularProgressRingLayer: CAShapeLayer {
     /**
      Watches for changes in the value property, and setNeedsDisplay accordingly
      */
-    override class func needsDisplay(forKey key: String) -> Bool {
+    override open class func needsDisplay(forKey key: String) -> Bool {
         if key == "value" {
             return true
         }
@@ -147,7 +147,7 @@ open class UICircularProgressRingLayer: CAShapeLayer {
     /**
      Creates animation when value property is changed
      */
-    override func action(forKey event: String) -> CAAction? {
+    override open func action(forKey event: String) -> CAAction? {
         if event == "value" && self.animated {
             let animation = CABasicAnimation(keyPath: "value")
             animation.fromValue = self.presentation()?.value(forKey: "value")

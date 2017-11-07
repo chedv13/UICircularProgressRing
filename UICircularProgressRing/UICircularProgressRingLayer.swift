@@ -107,7 +107,7 @@ class UICircularProgressRingLayer: CAShapeLayer {
     @NSManaged weak var valueDelegate: UICircularProgressRingView?
     
     // The value label which draws the text for the current value
-    lazy private var valueLabel: UILabel = UILabel(frame: .zero)
+    lazy var valueLabel: UILabel = UILabel(frame: .zero)
     
     // MARK: Draw
     

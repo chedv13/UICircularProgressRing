@@ -700,7 +700,7 @@ import UIKit
     /**
      Set the ring layer to the default layer, cated as custom layer
      */
-    var ringLayer: UICircularProgressRingLayer {
+    open var ringLayer: UICircularProgressRingLayer {
         return self.layer as! UICircularProgressRingLayer
     }
     

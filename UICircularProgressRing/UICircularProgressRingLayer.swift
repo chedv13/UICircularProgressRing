@@ -41,14 +41,20 @@ private extension CGFloat {
  */
 private extension UILabel {
     func update(withValue value: CGFloat, valueIndicator: String,
-                showsDecimal: Bool, decimalPlaces: Int) {
+                showsDecimal: Bool, decimalPlaces: Int, text: String?) {
+        if (text != nil) {
+            self.text = text!
+            self.sizeToFit()
+            return
+        }
+
         if showsDecimal {
             self.text = String(format: "%.\(decimalPlaces)f", value) +
                         "\(valueIndicator)"
         } else {
             self.text = "\(Int(value))\(valueIndicator)"
         }
-        self.sizeToFit()
+
     }
 }
 
@@ -301,7 +307,7 @@ open class UICircularProgressRingLayer: CAShapeLayer {
      Draws the value label for the view.
      Only drawn if shouldShowValueText = true
      */
-    open func drawValueLabel() {
+    open func drawValueLabel(text: String?) {
         guard shouldShowValueText else { return }
         
         // Draws the text field
@@ -309,12 +315,13 @@ open class UICircularProgressRingLayer: CAShapeLayer {
         valueLabel.font = self.font
         valueLabel.textAlignment = .center
         valueLabel.textColor = fontColor
-        
-        valueLabel.update(withValue: value,
-                          valueIndicator: valueIndicator,
-                          showsDecimal: showFloatingPoint,
-                          decimalPlaces: decimalPlaces)
-        
+        if (text != nil) {
+            valueLabel.update(withValue: value,
+                    valueIndicator: valueIndicator,
+                    showsDecimal: showFloatingPoint,
+                    decimalPlaces: decimalPlaces,
+                    text: text)
+        }
         // Deterime what should be the center for the label
         valueLabel.center = CGPoint(x: bounds.midX, y: bounds.midY)
         

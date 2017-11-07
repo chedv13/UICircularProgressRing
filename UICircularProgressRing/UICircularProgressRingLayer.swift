@@ -59,7 +59,7 @@ private extension UILabel {
  properties are set in UICircularProgressRingView and those are delegated to here.
  
  */
-class UICircularProgressRingLayer: CAShapeLayer {
+open class UICircularProgressRingLayer: CAShapeLayer {
     
     // MARK: Properties
     
@@ -158,7 +158,7 @@ class UICircularProgressRingLayer: CAShapeLayer {
         
         return super.action(forKey: event)
     }
-    
+
     
     // MARK: Helpers
     
